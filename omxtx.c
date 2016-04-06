@@ -278,7 +278,7 @@ static void dumpport(OMX_HANDLETYPE handle, int port)
 
 
 
-static int mapcodec(enum CodecID id)
+static int mapcodec(enum AVCodecID id)
 {
 	printf("Mapping codec ID %d (%x)\n", id, id);
 	switch (id) {

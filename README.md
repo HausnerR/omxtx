@@ -5,6 +5,9 @@ This is a simple proof-of-concept OpenMAX transcoder for the Raspberry Pi.
 
 See the warnings in the comments at the top of omxtx.c
 
+Little fixes needed for valid compilation.
+Compiled successfully on Raspberry Pi 2 with Ubuntu 15.10 and ffmpeg 2.7.3
+
 
 Copyright
 =========

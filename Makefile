@@ -14,7 +14,7 @@ all: omxtx
 	$(CC) $(CFLAGS) -c $<
 
 omxtx: omxtx.o
-	$(CC) $(LDFLAGS) $(LIBS) -o omxtx $(OFILES)
+	$(CC) -o omxtx $(OFILES) $(LDFLAGS) $(LIBS)
 
 clean:
 	rm -f *.o omxtx
